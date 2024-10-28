@@ -1,33 +1,74 @@
-# News Aggregator
+NEWS AGGREGATOR
 
-This is a news aggregator project built using the MERN stack (MongoDB, Express, React, Node.js) and the NewsAPI.org API. The project allows users to view news articles from various sources.
+npm init -y
 
-## Getting Started
+BACKEND:
 
-These instructions will help you set up the project on your local machine for development and testing purposes.
+touch .env
+npm install express axios cors dotenv
+npm install mongoose bcrypt jsonwebtoken
 
-### Prerequisites
+FRONTEND:
 
-- Node.js and npm installed on your machine
-- A NewsAPI.org API key
+npm install tailwindcss
 
-### Installation
+npm install vite@latest
+npm install react-scripts --save
+npm install react-router-dom
 
-1. Fork the repository on GitHub.
-2. Clone the repository to your local machine.
-3. Navigate to the server directory and create a new file named `.env`.
-4. Add your NewsAPI.org API key to the `.env` file in the following format: `API_KEY=your_news_api_key`.
-5. In the server directory, run `npm install` to install the necessary dependencies.
-6. Start the server by running `node server.js`.
-7. Navigate to the client directory and run `npm install` to install the necessary dependencies.
-8. Start the client by running `npm run dev`.
+npm install react-slick slick-carousel
+npm install node-fetch@2
 
-## Usage
+npm install react-share
 
-Once the project is set up and running, you can view news articles from various sources on the client side.
 
-## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+FOR TAILWIND:
+npm install --save @fortawesome/react-fontawesome
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/free-regular-svg-icons
+npm install --save @fortawesome/free-brands-svg-icons
+npm install --save @fortawesome/fontawesome-svg-core
+
+RUN:
+
+BACKEND-node server.js
+FRONTEND-npm run dev
+
+GIT:
+INITIALLY :
+1) git clone https://github.com/Sudharshanab24/News_agg.git
+2) git checkout -b feature-branch-name
+3) git add .
+4) git commit -m "Description of changes"
+5) git checkout main
+6) git pull origin main
+7) git checkout feature-branch-name
+8) git merge main
+9) git push origin feature-branch-name
+10) Creating a Pull Request (PR)
+Once you're satisfied with your changes, open a Pull Request to merge your branch into main:
+
+(Go to the GitHub repository)
+Click "Compare & pull request" next to your branch.
+Add a title and description, then click "Create pull request."
+
+(in terminal)
+11) git checkout main
+12) git pull origin main
+
+TO VIEW CHANGES :
+1) git pull origin main
+
+FOR SMALL CHANGES:
+1) git add .
+2) git commit -m "Small change description"
+3) git push origin main
+
+changes made
+
+
+
+
+
